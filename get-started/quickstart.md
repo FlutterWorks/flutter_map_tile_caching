@@ -55,7 +55,7 @@ Here, we'll create one called 'mapStore', directly after initialisation. Any num
     // ...
 </code></pre>
 
-## 4. [Connect to 'flutter\_map'](../stores-and-roots/integration.md)
+## 4. [Connect to 'flutter\_map'](../stores-and-roots/fm-integration.md)
 
 Add FMTC's specialised `TileProvider` to the `TileLayer`, to enable browse caching, and retrieval of tiles from the specified store.
 

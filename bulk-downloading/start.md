@@ -54,7 +54,7 @@ The `startForeground` method returns a (non-broadcast) `Stream` of `DownloadProg
 
 <mark style="background-color:orange;">\<link to</mark> <mark style="background-color:orange;"></mark><mark style="background-color:orange;">`TileEvent`</mark> <mark style="background-color:orange;"></mark><mark style="background-color:orange;">api docs here></mark>
 
-To reflect the information from a single event back to the user, use a `StreamBuilder`, and build the UI dependent on the 'snapshots' of the stream. If you need to keep track of information from across multiple events, see [#keeping-track-across-events](foreground.md#keeping-track-across-events "mention") below.
+To reflect the information from a single event back to the user, use a `StreamBuilder`, and build the UI dependent on the 'snapshots' of the stream. If you need to keep track of information from across multiple events, see [#keeping-track-across-events](start.md#keeping-track-across-events "mention") below.
 
 ### Keeping Track Across Events
 

@@ -1,6 +1,6 @@
 # Metadata
 
-`StoreMetadata`, accessed via `FMTCStore().metadata`, allows access and control over a simple peristent storage mechanism, designed for use with custom data/properties/fields tied to the store (such as a [`CacheBehavior`](../integration.md#cache-behavior) or URL template).
+`StoreMetadata`, accessed via `FMTCStore().metadata`, allows access and control over a simple peristent storage mechanism, designed for use with custom data/properties/fields tied to the store (such as a [`CacheBehavior`](../fm-integration.md#cache-behavior) or URL template).
 
 Data is interpreted in key-value pair form, where both the key and value are `String`s. Internally, the default backend stores it as a flat JSON structure. The metadata is stored directly on the store: if the store is deleted, it is deleted, and an exported store will retain its metadata. More advanced requirements will require use of a seperate persistance mechanism.
 

@@ -8,7 +8,7 @@
 * [Quickstart](get-started/quickstart.md)
 * [Installation](get-started/installation.md)
 * [Example Application](get-started/example-application.md)
-* [v8 -> v9 Migration](get-started/v8-greater-than-v9-migration.md)
+* [v8 -> v9 Migration](get-started/v8-v9-migration.md)
 
 ## 🌐 General
 
@@ -26,15 +26,15 @@
 * [Roots](stores-and-roots/roots/README.md)
   * [Statistics](stores-and-roots/roots/statistics.md)
   * [Recovery](stores-and-roots/roots/recovery.md)
-* [flutter\_map Integration](stores-and-roots/integration.md)
+* [flutter\_map Integration](stores-and-roots/fm-integration.md)
 
 ## 📲 Bulk Downloading
 
 * [Introduction](bulk-downloading/introduction.md)
 * [1️⃣ Create A Region](bulk-downloading/regions.md)
 * [2️⃣ Prepare For Downloading](bulk-downloading/prepare.md)
-* [3️⃣ Start Download](bulk-downloading/foreground.md)
-* [Control Downloads](bulk-downloading/control-downloads.md)
+* [3️⃣ Start Download](bulk-downloading/start.md)
+* [Control Downloads](bulk-downloading/control.md)
 * [Testing Tile Server](bulk-downloading/testing-tile-server.md)
 
 ## 🗃️ External

@@ -12,7 +12,7 @@ For example, OpenStreetMap's tile server forbids bulk downloading: [https://oper
 For testing purposes, check out the testing tile server included in the FMTC project: [testing-tile-server.md](testing-tile-server.md "mention").
 {% endhint %}
 
-Downloading is extremely efficient and fast, and uses multiple threads and isolates to achieve write speeds of hundreds of tiles per second (if the network/server speed allows). After downloading, no extra setup is needed to use them in a map (other than the usual [integration.md](../stores-and-roots/integration.md "mention")).
+Downloading is extremely efficient and fast, and uses multiple threads and isolates to achieve write speeds of hundreds of tiles per second (if the network/server speed allows). After downloading, no extra setup is needed to use them in a map (other than the usual [fm-integration.md](../stores-and-roots/fm-integration.md "mention")).
 
 It is also simple to understand and implement:
 
@@ -21,7 +21,7 @@ It is also simple to understand and implement:
     _↳ Optionally,_ [_create a `FlutterMap`_ _`Polygon`_](regions.md#converting-to-drawable-polygons)
 2. [Convert that region into a downloadable region](prepare.md)\
    _↳ Optionally,_ [_check the number of tiles in the region_](prepare.md#checking-number-of-tiles) _before downloading_
-3. [Start downloading that region](foreground.md)\
+3. [Start downloading that region](start.md)\
    _↳ Optionally, when testing,_ [_try the miniature tile server_](testing-tile-server.md)
-4. [Listen for progress](foreground.md#listen-for-progress) events to update your user
-5. Optionally, [control (pause/resume/cancel) the download](control-downloads.md)
+4. [Listen for progress](start.md#listen-for-progress) events to update your user
+5. Optionally, [control (pause/resume/cancel) the download](control.md)
