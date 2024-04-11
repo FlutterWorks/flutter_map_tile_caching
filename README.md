@@ -6,12 +6,6 @@ coverY: -47.966226138032305
 
 # flutter\_map\_tile\_caching
 
-{% hint style="info" %}
-You're currently browsing the docs for v9, which is currently in beta prerelease.
-
-Browse the current v8 docs: [v8](https://app.gitbook.com/o/1aKKbSpe255wyVNDoFYc/s/fPX4iWzEnN3gw4KJGc0k/ "mention").
-{% endhint %}
-
 [![pub.dev](https://img.shields.io/pub/v/flutter\_map\_tile\_caching.svg?label=Latest+Version)](https://pub.dev/packages/flutter\_map\_tile\_caching) [![stars](https://badgen.net/github/stars/JaffaKetchup/flutter\_map\_tile\_caching?label=stars\&color=green\&icon=github)](https://github.com/JaffaKetchup/flutter\_map\_tile\_caching/stargazers) [![likes](https://img.shields.io/pub/likes/flutter\_map\_tile\_caching?logo=flutter)](https://pub.dev/packages/flutter\_map\_tile\_caching/score)        [![Open Issues](https://badgen.net/github/open-issues/JaffaKetchup/flutter\_map\_tile\_caching?label=Open+Issues\&color=green)](https://github.com/JaffaKetchup/flutter\_map\_tile\_caching/issues) [![Open PRs](https://badgen.net/github/open-prs/JaffaKetchup/flutter\_map\_tile\_caching?label=Open+PRs\&color=green)](https://github.com/JaffaKetchup/flutter\_map\_tile\_caching/pulls)
 
 ## Highlights
