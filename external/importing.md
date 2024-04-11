@@ -2,6 +2,8 @@
 
 The `import()` method copies the specified archive to a temporary location, then opens it and extracts the specified stores (or all stores if none are specified) & all necessary tiles, merging them into the in-use database. The specified archive must exist, must be valid, and should contain all the specified stores, if applicable.
 
+{% embed url="https://pub.dev/documentation/flutter_map_tile_caching/latest/flutter_map_tile_caching/RootExternal/import.html" %}
+
 There is no support for directly overwriting the in-use database with the archived database, but this may be performed manually while FMTC is uninitialised.
 
 {% hint style="warning" %}
@@ -15,7 +17,9 @@ final importResult =
     await FMTCRoot.external('~/path/to/file.fmtc').import(['storeName']);
 ```
 
-The returned value is complex.
+The returned value is complex. See the API documentation for more details:
+
+{% embed url="https://pub.dev/documentation/flutter_map_tile_caching/latest/flutter_map_tile_caching/ImportResult.html" %}
 
 ## Conflict Resolution Strategies
 
@@ -32,6 +36,8 @@ If an importing store has the same name as an existing store, a conflict has occ
 
 In any case, a conflict between tiles will result in the newer (most recently modified) tile winning (it is assumed it is more up-to-date).
 
+{% embed url="https://pub.dev/documentation/flutter_map_tile_caching/latest/flutter_map_tile_caching/ImportConflictStrategy.html" %}
+
 ## List Stores
 
 If the user must be given a choice as to which stores to import (or it is helpful to know), and it is unknown what the stores within the archive are, the `listStores` getter will list the available store names without performing an import.
@@ -39,3 +45,5 @@ If the user must be given a choice as to which stores to import (or it is helpfu
 {% hint style="warning" %}
 The same storage pitfalls as `import` exist. `listStores` must also duplicate the entire archive.
 {% endhint %}
+
+{% embed url="https://pub.dev/documentation/flutter_map_tile_caching/latest/flutter_map_tile_caching/RootExternal/listStores.html" %}
