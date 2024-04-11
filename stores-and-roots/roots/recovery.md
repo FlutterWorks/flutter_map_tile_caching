@@ -11,3 +11,9 @@ await rec.recoverableRegions.failedOnly; // List all failed downloads
 await stats.getRecoverableRegion(); // Retrieve a specific recoverable region by ID
 await stats.cancel(); // Safely remove the specified recoverable region
 </code></pre>
+
+{% hint style="success" %}
+The recovery system 'tracks' downloads to monitor which tiles have been successfully downloaded (and no longer buffered).
+
+This allows the `DownloadableRegion.start` parameter to be adjusted to avoid redownloading tiles that were already downloaded.
+{% endhint %}
