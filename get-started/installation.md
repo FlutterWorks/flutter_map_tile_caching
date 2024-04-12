@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 **FMTC is licensed under GPL-v3.**
 
-If you're developing an application that isn't licensed under GPL, this affects you and your application's legal right to distribution. For more information, please see [#proprietary-licensing](../#proprietary-licensing "mention").
+If you're developing an application that isn't licensed under GPL, this affects you and your application's legal right to distribution. For more information, please see [proprietary-licensing.md](../proprietary-licensing.md "mention").
 {% endhint %}
 
 {% hint style="success" %}

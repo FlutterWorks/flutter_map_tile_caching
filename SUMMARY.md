@@ -1,14 +1,17 @@
 # Table of contents
 
 * [flutter\_map\_tile\_caching](README.md)
-* [Is FMTC Right For Me?](is-fmtc-right-for-me.md)
+* [❔ Is FMTC Right For Me?](is-fmtc-right-for-me.md)
+* [💝 Supporters](supporters.md)
+* [📃 (Proprietary) Licensing](proprietary-licensing.md)
 
-## Get Started
+## 🚀 Get Started
 
 * [Quickstart](get-started/quickstart.md)
 * [Installation](get-started/installation.md)
 * [Example Application](get-started/example-application.md)
 * [v8 -> v9 Migration](get-started/v8-v9-migration.md)
+* [Full API Reference](https://pub.dev/documentation/flutter\_map\_tile\_caching/latest/flutter\_map\_tile\_caching/flutter\_map\_tile\_caching-library.html)
 
 ## 🌐 General
 
@@ -45,6 +48,4 @@
 
 ***
 
-* [Credits](credits.md)
-* [Full API Reference](https://pub.dev/documentation/flutter\_map\_tile\_caching/latest/flutter\_map\_tile\_caching/flutter\_map\_tile\_caching-library.html)
 * [flutter\_map Docs](https://docs.fleaflet.dev/)

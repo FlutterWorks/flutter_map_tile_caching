@@ -1,8 +1,6 @@
-# Is FMTC Right For Me?
+# ❔ Is FMTC Right For Me?
 
-_**In a one word answer: Yes.**_
-
-***
+_In a one word answer: Yes._
 
 FMTC aims to provide all the functionality you will need for advanced offline mapping in your app, and the unique features that will help set your app apart from the competition, in a way that requires little knowledge of the internals of 'flutter\_map' and other caching fundamentals, and little effort from you (for most setups).
 
@@ -25,7 +23,7 @@ Although FMTC will still handle all these situations comfortably, other options 
 {% hint style="warning" %}
 Another consideration for non-GPL-licensed projects is abiding by FMTC's GPL license. This is especially true for proprietary products.
 
-For more information about licensing, please see [#proprietary-licensing](./#proprietary-licensing "mention").
+For more information about licensing, please see [proprietary-licensing.md](proprietary-licensing.md "mention").
 {% endhint %}
 
 If you're still not sure, please get in touch: [#get-help](./#get-help "mention")! I'm always happy to offer honest guidance :)

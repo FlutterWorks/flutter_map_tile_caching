@@ -1,7 +1,21 @@
 ---
 description: A plugin for 'flutter_map' providing advanced offline functionality
-cover: .gitbook/assets/OpenStreetMap Screenshot.jpg
-coverY: -47.966226138032305
+cover: .gitbook/assets/FMTC Banner.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # flutter\_map\_tile\_caching
@@ -10,7 +24,13 @@ coverY: -47.966226138032305
 
 ## Highlights
 
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><p><mark style="color:blue;">◉</mark> 📲</p><p><strong>Integrated Caching × Bulk Downloading</strong></p></td><td>Get both dynamic browse caching that works automatically as the user browses the map, and bulk downloading to preload regions onto the user's device, all in one convenient, integrated API!</td><td><ul><li><a data-footnote-ref href="#user-content-fn-1">Multi-cache ('store') support</a> with <a data-footnote-ref href="#user-content-fn-2">minimized tile duplication</a></li><li><a data-footnote-ref href="#user-content-fn-3">Download any shape of area</a></li><li><a data-footnote-ref href="#user-content-fn-4">Automatic sea tile skipping</a></li><li><a data-footnote-ref href="#user-content-fn-5">Super-controllable downloads</a></li><li><a data-footnote-ref href="#user-content-fn-6">Optional download rate limiting</a></li></ul></td><td></td></tr><tr><td><p><mark style="color:red;">◉</mark> 🏃</p><p><strong>Ultra-fast &#x26; Performant</strong></p></td><td>No need to bore your users to death anymore! Bulk downloading is super-fast, and can even reach speeds of over 1500 tiles per second<a data-footnote-ref href="#user-content-fn-7">*</a>. Existing cached tiles can be displayed on the map almost instantly.</td><td><ul><li>Multi-threaded setup to minimize load on main thread, even when browse caching</li><li>Streamlined internals to reduce memory consumption</li></ul></td><td></td></tr><tr><td><p><mark style="color:green;">◉</mark> 🧩</p><p><strong>Import &#x26; Export</strong></p></td><td>Export and share stores, then import them later, or on other devices! You could even remote control your organization's devices, by pushing tiles to them, keeping your tile requests (&#x26; costs) low!</td><td></td><td></td></tr><tr><td><p><mark style="color:purple;">◉</mark> 💖</p><p><strong>Quick To Implement &#x26; Easy To Experiment</strong></p></td><td>A basic caching implementation can be setup in four quick steps, and shouldn't even take 5 minutes to set-up. Check out our <a data-mention href="get-started/quickstart.md">quickstart.md</a> instructions.</td><td>Ready to experiment with bulk downloading, but don't want to make costly and slow tile requests? Check out the testing tile server included in the FMTC project: <a data-mention href="broken-reference">Broken link</a>!</td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><p><mark style="color:blue;">◉</mark> 📲</p><p><strong>Integrated Caching × Bulk Downloading</strong></p></td><td>Get both dynamic browse caching that works automatically as the user browses the map, and bulk downloading to preload regions onto the user's device, all in one convenient, integrated API!</td><td><ul><li><a data-footnote-ref href="#user-content-fn-1">Multi-cache ('store') support</a> with <a data-footnote-ref href="#user-content-fn-2">minimized tile duplication</a></li><li><a data-footnote-ref href="#user-content-fn-3">Download any shape of area</a></li><li><a data-footnote-ref href="#user-content-fn-4">Automatic sea tile skipping</a></li><li><a data-footnote-ref href="#user-content-fn-5">Super-controllable downloads</a></li><li><a data-footnote-ref href="#user-content-fn-6">Optional download rate limiting</a></li></ul></td><td></td></tr><tr><td><p><mark style="color:red;">◉</mark> 🏃</p><p><strong>Ultra-fast &#x26; Performant</strong></p></td><td>No need to bore your users to death anymore! Bulk downloading is super-fast, and can even reach speeds of over 1000 tiles per second<a data-footnote-ref href="#user-content-fn-7">*</a>. Existing cached tiles can be displayed on the map almost instantly.</td><td><ul><li>Multi-threaded setup to minimize load on main thread, even when browse caching</li><li>Streamlined internals to reduce memory consumption</li><li>Successfully downloaded tiles aren't redownloaded when an unexpectedly failed download is recovered</li></ul></td><td></td></tr><tr><td><p><mark style="color:green;">◉</mark> 🧩</p><p><strong>Import &#x26; Export</strong></p></td><td>Export and share stores, then import them later, or on other devices! You could even remote control your organization's devices, by pushing tiles to them, keeping your tile requests (&#x26; costs) low!</td><td></td><td></td></tr><tr><td><p><mark style="color:purple;">◉</mark> 💖</p><p><strong>Quick To Implement &#x26; Easy To Experiment</strong></p></td><td>A basic caching implementation can be setup in four quick steps, and shouldn't even take 5 minutes to set-up. Check out our <a data-mention href="get-started/quickstart.md">quickstart.md</a> instructions.</td><td>Ready to experiment with bulk downloading, but don't want to make costly and slow tile requests? Check out the testing tile server included in the FMTC project: <a data-mention href="bulk-downloading/testing-tile-server.md">testing-tile-server.md</a>!</td><td></td></tr></tbody></table>
+
+### Trusted by many
+
+In addition to our generous [supporters](supporters.md), FMTC is also trusted and [used by businesses](#user-content-fn-8)[^8] all around the world:
+
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><a href="https://www.pitcherogps.com/"><strong>Pitchero GPS</strong></a></td><td><a href=".gitbook/assets/Pitchero GPS Logo.png">Pitchero GPS Logo.png</a></td><td><a href="https://www.pitcherogps.com">https://www.pitcherogps.com </a></td></tr><tr><td align="center"><a href="https://gps.lafayette.se/"><strong>Lafayette GPS</strong></a></td><td><a href=".gitbook/assets/Lafayette GPS Logo.png">Lafayette GPS Logo.png</a></td><td><a href="https://gps.lafayette.se/">https://gps.lafayette.se/</a></td></tr><tr><td align="center">...and many more!</td><td></td><td></td></tr></tbody></table>
 
 ### How can FMTC elevate my app to the next level?
 
@@ -18,7 +38,7 @@ Too easy :smile:! Take a look at Google Maps, or Strava, or whichever other app 
 
 <details>
 
-<summary>All I see are rectangles. Why download whole regions of map that will never be even glanced at? Because most routes or areas aren't square and rectangles!</summary>
+<summary>All I see are rectangles. I don't want rectangles.</summary>
 
 Whether it's walking along a remote winding river using the [Line region](bulk-downloading/regions.md#poly-line), downloading all of central London ready for that weekend exploration using the [Circle region](bulk-downloading/regions.md#circle) (roaming fees + maps gets expensive fast!), or tracking your belongings across a vast, shapeless space using the [Custom Polygon region](bulk-downloading/regions.md#custom-polygon), FMTC has your user's back - but not all of their storage space!
 
@@ -28,7 +48,7 @@ Whether it's walking along a remote winding river using the [Line region](bulk-d
 
 <summary>Those massive lakes and coastlines near me really interrupt the view. If only there was a way to remove them from the picture...</summary>
 
-Oh wait, there is! With Sea Tile Skipping, you can avoid storing those unneccessary tiles of sea of out-of-tile-server-bounds-void, then use the client's functonality to just paint the spaces the same color as the sea. This also preserves sea tiles that aren't so empty after all - that boat path could come in handy for some scuba diving. Just another way FMTC keeps your user's phone a [tight ship](#user-content-fn-8)[^8] ;)
+Oh wait, there is! With Sea Tile Skipping, you can avoid storing those unneccessary tiles of sea of out-of-tile-server-bounds-void, then use the client's functonality to just paint the spaces the same color as the sea. This also preserves sea tiles that aren't so empty after all - that boat path could come in handy for some scuba diving. Just another way FMTC keeps your user's phone bloat free ;)
 
 </details>
 
@@ -36,7 +56,7 @@ Oh wait, there is! With Sea Tile Skipping, you can avoid storing those unneccess
 
 <summary>I need to download something else for a moment. Do I really have to stop the entire download and start again?</summary>
 
-Not with FMTC! Downloads can be paused and resumed at any time, and with Download Recovery, downloads that stopped unexpectedly can be restarted without your user having to select the entire region again.
+Not with FMTC! Downloads can be paused and resumed at any time, and with Download Recovery, downloads that stopped unexpectedly can be started right from where they left off, without your user even knowing something went wrong.
 
 </details>
 
@@ -52,44 +72,31 @@ Downloads can be rate limited to avoid running up to the server's rate limit or 
 
 And with export/import functionality, user's can download regions just once, then keep the download themselves for another time. Or, you can provide a bundle of tiles to all your user's, while still allow it to be updated per-user in future!\*[^10]
 
+
+
 </details>
 
 ***
 
 ## Supporting Me
 
-Hi there 👋 My name is Luka, but I go by JaffaKetchup!
+This project is wholly open source and funded by generous supporters like you! Any amount you can spare that you think FMTC deserves is hugely appriciated, and means a lot to me.
 
-I'm currently in full-time education in the UK studying Computer Science, Geography, and Mathematics, and have been building my software development skills alongside my education for many years. I specialise in the Flutter and Dart technologies to build cross-platform applications, and have over 4 years of experience both from a hobby and commercial standpoint.
-
-I've worked as a senior developer with a small team at WatchEnterprise to develop their Flutter-based WatchCrunch social media app for Android & iOS.
-
-I'm one of a small team of maintainers for Flutter's №1 non-commercially aimed mapping library 'flutter\_map', for which we make internal contributions, regulate and collaborate with external contributors, and offer support to a large community. I also personally develop a multitude of extension libraries, such as 'flutter\_map\_tile\_caching'. In addition, I regularly contribute to OpenStreetMap, and continously improve my skills with personal experimental projects.
-
-I'm eager to earn other languages, and more than happy to talk about anything software development related!
-
-Sponsorships & donations allow me to further my education, whilst spening even more time developing the open-source projects that you use & love. I'm grateful for any amount you can spare, all support means a lot to me :) If you can't support me financially, please consider leaving a star and a like on projects that worked well for you.
-
-I'm extremely greatful for any amount you can spare!
-
-{% embed url="https://github.com/sponsors/JaffaKetchup" %}
-Sponsor Me via GitHub Sponsors
-{% endembed %}
+{% content-ref url="supporters.md" %}
+[supporters.md](supporters.md)
+{% endcontent-ref %}
 
 ## (Proprietary) Licensing
 
-_I am not a lawyer, and this information is to the best of my understanding. You are urged to read the license yourself for a thorough understanding._
+{% hint style="warning" %}
+**FMTC is licensed under GPL-v3.**
 
-This project is released under GPL v3. For detailed information about this license, see [https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html). [choosealicense.com](https://choosealicense.com/licenses/gpl-3.0/) summarises the license with the following paragraph:
+If you're developing an application that isn't licensed under GPL, this affects you and your application's legal right to distribution.
+{% endhint %}
 
-> Permissions of this strong copyleft license are conditioned on **making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license**. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
-
-Essentially, whilst you can use this code within commercial projects, they must not be proprietary - they incorporate this 'licensed work' so they must be available under the same license. You must distribute your source code (at least on request) (under the same GPL v3 license) to anyone who uses your program.
-
-I learnt (and am still learning) to code with free, open-source software due to my age and lack of money, and for that reason, I believe in promoting open-source wherever possible to give equal opportunities to everybody, no matter their age, financial position, or any other characteristic. I'm not sure it's fair for commercial & proprietary applications to use software made by people for free out of generosity without giving back to the ecosystem or maintainer(s).\
-On the other hand, I recognise that commercial businesses may want to use my projects for their own proprietary applications, and are happy to support me, and I am also trying to make a small amount of money from my projects, by donations and by selling licenses!
-
-Therefore, if you would like a license to use this software within a proprietary application, I am willing to sell a (preferably yearly) license. If this seems like what you'd be interested in, please do not hesitate to get in touch at [fmtc@jaffaketchup.dev](mailto:fmtc@jaffaketchup.dev). Please include details of your project if you can, and the approximate scale/audience for your app; I try to find something that works for everyone, and I'm happy to negotiate! If you're a non-profit organization, I'm happy to also offer an alternative license for free\*[^11]!
+{% content-ref url="proprietary-licensing.md" %}
+[proprietary-licensing.md](proprietary-licensing.md)
+{% endcontent-ref %}
 
 ## Get Help
 
@@ -119,10 +126,8 @@ Please get in touch via the correct method below for your issue, and I'll be the
 
     1500 tiles was tested from the included testing tile server running on localhost, on a Windows 11 (Intel 12th Gen i7-12700H CPU & DDR5 4800MHz RAM) with 10 downloading threads & a buffer of 500 tiles.
 
-[^8]: without unneccesary bloat
+[^8]: Disclaimer: these projects/businesses use FMTC licensed under an [alternative proprietary license](./#proprietary-licensing).
 
 [^9]: Those compatible with flutter\_map. Some tile server's may forbid bulk downloading.
 
 [^10]: Some tile servers may forbid this activity. Check your tile server's ToS.
-
-[^11]: Decision will be case dependent. Please get in touch, and I'll be happy to talk!
