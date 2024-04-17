@@ -2,7 +2,7 @@
 
 Regions (`BaseRegion`s) are geographical areas that do not yet have any of the necessary extra information to start a download (like `DownloadableRegion`s).
 
-The [example-application.md](../../get-started/example-application.md "mention") contains a great way you might want to allow your users to choose a region to download, and it shows how to use Provider to share a created region and the number of approximate tiles it has to a download screen. It even allows the user to follow the download, tile-by-tile!
+The [example-application.md](../get-started/example-application.md "mention") contains a great way you might want to allow your users to choose a region to download, and it shows how to use Provider to share a created region and the number of approximate tiles it has to a download screen. It even allows the user to follow the download, tile-by-tile!
 
 ## Types Of Region
 
@@ -84,6 +84,14 @@ A polygon is converted into tiles through a three-step process:
 2. Generate the tiles of each of the triangles' edges using [Bresenham's line algorithm](https://en.wikipedia.org/wiki/Bresenham's\_line\_algorithm)
 3. For each of the triangles, generate the tiles in the empty space between the outlines
 {% endhint %}
+{% endtab %}
+
+{% tab title="Recoverable" %}
+These aren't technically the same type of region as the others, and is the odd one out.
+
+However, it can be converted to a downloadable region in the same way as the others, or the original `BaseRegion` extracted using `toRegion`.
+
+For more info, see [recovery.md](../stores-and-roots/roots/recovery.md "mention").
 {% endtab %}
 {% endtabs %}
 

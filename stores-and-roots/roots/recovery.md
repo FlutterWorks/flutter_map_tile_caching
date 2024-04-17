@@ -12,8 +12,11 @@ await stats.getRecoverableRegion(); // Retrieve a specific recoverable region by
 await stats.cancel(); // Safely remove the specified recoverable region
 </code></pre>
 
-{% hint style="success" %}
-The recovery system 'tracks' downloads to monitor which tiles have been successfully downloaded (and no longer buffered).
+## Restoring Usable Regions
 
-This allows the `DownloadableRegion.start` parameter to be adjusted to avoid redownloading tiles that were already downloaded.
-{% endhint %}
+Once a `RecoveredRegion` has been retreived, it can be converted to a standard region:
+
+* either a `DownloadableRegion`, using `toDownloadable`\
+  The `start` tile will be adjusted from the original to reflect the progress of the download before it failed, meaning that tiles already successfully cached (excluding buffered) will not be downloaded again, saving time and data!\
+  The `end` tile will be either the original, or the maximum number of tiles normally in the region (which will have no resulting difference than `null`, but allows for a quick estimate of the number of remaining tiles to be made without needing to re`check` the entire region).
+* or a `BaseRegion` (with the correct subtype), using `toRegion`

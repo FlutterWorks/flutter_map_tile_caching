@@ -2,7 +2,7 @@
 
 Now that you have constructed a `DownloadableRegion`, you're almost ready to go.
 
-{% embed url="https://pub.dev/documentation/flutter_map_tile_caching/latest/flutter_map_tile_caching/DownloadManagement/startForeground.html" %}
+{% embed url="https://pub.dev/documentation/flutter_map_tile_caching/latest/flutter_map_tile_caching/StoreDownload/startForeground.html" %}
 
 ## Customization Options
 

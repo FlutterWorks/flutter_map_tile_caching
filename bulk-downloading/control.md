@@ -2,7 +2,7 @@
 
 There are 3 methods available to control a download, and 1 method to check the download's current state.
 
-{% embed url="https://pub.dev/documentation/flutter_map_tile_caching/latest/flutter_map_tile_caching/DownloadManagement-class.html" %}
+{% embed url="https://pub.dev/documentation/flutter_map_tile_caching/latest/flutter_map_tile_caching/StoreDownload-class.html" %}
 
 {% hint style="info" %}
 It may take some time to perform these operations if the download has a low TPS, as each thread checks the current state/awaits a signal between each of their tiles.
