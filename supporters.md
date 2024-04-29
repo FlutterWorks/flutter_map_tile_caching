@@ -37,6 +37,7 @@ In no particular order:
 * [@quentinchaignaud](https://github.com/quentinchaignaud)
 * [@Mayb3Nots](https://github.com/Mayb3Nots)
 * [@T-moz](https://github.com/T-moz)
+* [@kennywakeland](https://github.com/kennywakeland)
 * _+ more anonymous or private donors_
 
 And also a thank you to the businesses listed in [#trusted-by-many](./#trusted-by-many "mention"), and more, for abiding by the GPL license of this repository.
