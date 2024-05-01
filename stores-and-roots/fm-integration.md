@@ -6,7 +6,7 @@ Stores also have the method `getTileProvider()`. This is the point of integratio
 import 'package:flutter_map/flutter_map.dart';
 
 class MapView extends StatefulWidget {
-    late final tileProvider = FMTC.instance('storeName').getTileProvider();
+    late final tileProvider = FMTCStore('storeName').getTileProvider();
     
     Widget build(BuildContext context) {
         return FlutterMap(
