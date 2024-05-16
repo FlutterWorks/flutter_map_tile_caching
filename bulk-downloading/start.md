@@ -12,14 +12,26 @@ Before you call `startForeground` (via `FMTCStore().download`) to start the down
   The number of simultaneous download threads to run
 * `maxBufferLength` (defaults to 200)\
   The number of tiles to temporarily persist in memory before writing to the cache
-* `skipExistingTiles` (defaults to `true`)\
+* `skipExistingTiles` (defaults to `false`)\
   Whether to avoid re-downloading tiles that have already been cached
 * `skipSeaTiles` (defaults to `true`)\
-  Whether to avoid caching tiles that are entirely sea
+  Whether to avoid caching tiles that are entirely sea (based on whether they have the same pixels as the tile at z17, x0, y0, which is assumed to be sea)
 * `rateLimit`\
   The maximum number of tiles that can be attempted per second
 * `maxReportInterval` (defaults to 1 second)\
   The duration in which to emit _at least_ one `DownloadProgress` event
+* `disableRecovery` (defaults to `false`)\
+  Whether to avoid registering this download with the [recovery.md](../stores-and-roots/roots/recovery.md "mention") system for safe recovery if the download fails
+
+{% hint style="warning" %}
+Ensure `skipSeaTiles` is disabled when downloading from a server where the tile at z17, x0, y0 is not a consitently colored sea tile, or where different sea tiles look different, such as with satellite imagery. FMTC cannot yet skip sea tiles that match these conditions.
+{% endhint %}
+
+{% hint style="info" %}
+The [recovery.md](../stores-and-roots/roots/recovery.md "mention") system can slow a download, as it must be regularly updated with the latest progress of the download, and this data is not currently batched (so it occurs for every downloaded tile). This is an optimization planned for later implementation.
+
+Therefore, where speed is significant and the download is unlikely to be unexpectedly interrupted, consider disabling download recovery.
+{% endhint %}
 
 ## Start Download
 

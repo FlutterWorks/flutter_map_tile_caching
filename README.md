@@ -46,7 +46,7 @@ Whether it's walking along a remote winding river using the [Line region](bulk-d
 
 <details>
 
-<summary>Those massive lakes and coastlines near me really interrupt the view. If only there was a way to remove them from the picture...</summary>
+<summary>Loads of blue</summary>
 
 Oh wait, there is! With Sea Tile Skipping, you can avoid storing those unneccessary tiles of sea of out-of-tile-server-bounds-void, then use the client's functonality to just paint the spaces the same color as the sea. This also preserves sea tiles that aren't so empty after all - that boat path could come in handy for some scuba diving. Just another way FMTC keeps your user's phone bloat free ;)
 
