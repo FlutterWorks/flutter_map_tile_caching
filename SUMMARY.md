@@ -18,6 +18,7 @@
 * [Initialisation](general/initialisation.md)
 * [Backends](general/backends.md)
 * [Error Handling](general/error-handling.md)
+* [Tips](general/tips.md)
 
 ## 📂 Stores & Roots
 
